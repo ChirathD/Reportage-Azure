@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal/Modal"
 import React, { useState } from "react";
-
+import AdSense from "react-adsense";
 import "./style.scss"
 
 const Layout = () => {
