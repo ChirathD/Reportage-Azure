@@ -137,12 +137,31 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1024px;
     padding: 10px 10%;
     opacity: 90%;
     position: fixed;
     bottom: 0px; 
+    width: 100%;
+    margin-left: auto;
 
+    .info{
+      display: flex;
+      gap: 30px;
+      font-size: 13px;
+      .link{
+        text-decoration: none;
+        color: #d6d6d6;
+        font-size: 13px;
+      }
+      .link:hover {
+        color: #f4b806;
+      }
+      .rights{
+        position: absolute;
+        right: 0;
+        margin-right: 300px;
+      }
+    }
   }
 
 

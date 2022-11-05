@@ -1,0 +1,33 @@
+.privacy-policy{
+    background-color: #d6d6d6;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.pph1 {
+    font-family: bebas neue;
+    font-size: 46px;
+    text-align: center;
+    color: rgb(44, 48, 52);
+    margin: 0;
+    padding: 0 0 6px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+  }
+.pph2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.ppp {
+  font-family: open sans;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgb(44, 48, 52);
+  margin: 0;
+  padding: 10px 0 0 0;
+}

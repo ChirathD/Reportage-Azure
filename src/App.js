@@ -15,6 +15,7 @@ import Modal from "./components/Modal/Modal"
 import React, { useState } from "react";
 import AdSense from "react-adsense";
 import "./style.scss"
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy"
 
 const Layout = () => {
   const [subscriptionState, setSubscriptionState] = useState(false);
@@ -45,10 +46,10 @@ const router = createBrowserRouter([
         path: "/write",
         element: <Write />,
       },
-      // {
-      //   path: "/hero",
-      //   element: <Hero />,
-      // },
+      {
+        path: "/privacy-policy",
+        element: <PrivacyPolicy/>,
+      },
     ],
   },
   {
@@ -56,8 +57,7 @@ const router = createBrowserRouter([
     element: <Register />,
   },
   {
-    path: "/login",
-    element: <Login />,
+
   },
 ]);
 
