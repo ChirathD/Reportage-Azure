@@ -1,0 +1,86 @@
+/* 
+  
+  #form {
+    margin-top: 50px;
+    margin-right: 5px;
+    width: 400px;
+    height: 200px;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 3px solid #db1478;
+    background-color: silver;
+  }
+
+  .form-field {
+    display: flex;
+    margin: 0 0 1rem 0;
+  }
+  label, input {
+    width: 70%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+  label {
+    text-align: right;
+    width: 30%;
+  }
+  input {
+    border: 2px solid #aaa;
+    border-radius: 2px;
+  }
+   */
+
+.modal-box{
+    width: 400px;
+    height: 150px;
+    border: 3px solid #db1478;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+}
+
+/* .heading{
+    color:#607d8b;
+    text-transform:capitalize;
+    font-size:20px;
+    font-weight:900;
+  } */
+
+  .input {
+    width:85%;
+    height:60px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-bottom:-80px;
+    border:none;
+    border-bottom:3px solid #ffc107;
+    overflow:auto;
+    position:relative;
+  }
+
+  .one  .btn{
+    width:85%;
+    background:#ffc107;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    font-size:14px;
+    color:#fff;
+    text-transform:capitalize;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .one  .btn:active:focus,
+  .one  .btn:focus,
+  .one  .btn:hover{
+    outline : none;
+  }
+  
+  .one .btn:hover{
+    cursor:pointer;
+  }

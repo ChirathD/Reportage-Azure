@@ -1,0 +1,87 @@
+.modal-box {
+    margin-top: 50px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    height: 150px;
+    font-family: 'Mulish', sans-serif;
+    font-size: x-small;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 2px solid #f4b806;
+    border-radius: 5px;
+    background-color: #1D1D1F;
+    opacity: 80%;
+    z-index: 10;
+}
+
+.subscribe_title{
+    color: white;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.subscribe_text{
+    color: white;
+    font-size: 13px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+*:focus {
+    outline: none;
+}
+
+.form {
+	margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.form__email {
+	/* padding: 8px 40px; */
+    padding-left: 10px;
+    width: 225px;
+    height: 30px;
+	border-radius: 2px;
+ 	border: 1px solid #f4b806;
+	color: #0F121F;
+}
+
+
+/* input::placeholder {
+    border: 2px solid red;
+  } */
+
+/* input::placeholder {
+    outline: 2px solid orange; 
+    text-align: left;
+    color: blue;
+  } */
+
+/* .form__email:focus {
+	outline: 1px solid #3D9FFF;
+    text-align: left;
+} */
+
+.form__button {
+	background: #f4b806;
+	padding: 5px;
+    width: 100px;
+	border: none;
+	border-radius: 2px;
+    text-align: center;
+	color: white;
+	box-shadow: 0 1px 2px #f4b806;
+}
+
+.form__button:hover {
+	box-shadow: 0 2px 2px #f4b806;
+}
