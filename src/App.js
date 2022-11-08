@@ -12,6 +12,7 @@ import Single from "./pages/Single";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal/Modal"
+import BlogPosts from "./components/BlogPosts/BlogPosts"
 import React, { useState } from "react";
 import AdSense from "react-adsense";
 import "./style.scss"
@@ -50,11 +51,15 @@ const router = createBrowserRouter([
         path: "/privacy-policy",
         element: <PrivacyPolicy/>,
       },
+      {
+        path: "/test",
+        element: <BlogPosts/>,
+      },
     ],
   },
   {
-    path: "/register",
-    element: <Register />,
+    path: "/blogpost1",
+    element: <BlogPosts></BlogPosts>,
   },
   {
 

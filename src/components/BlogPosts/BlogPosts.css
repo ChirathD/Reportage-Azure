@@ -1,0 +1,78 @@
+.single{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 80px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.content{
+
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.pph2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.ppp {
+    font-family: open sans;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(44, 48, 52);
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+
+.diabetes-section-2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.section-2-img{
+    justify-content: left;
+    margin-left: 0;
+}
+
+.section-2-img img{
+    width: 90%; 
+    object-fit: contain
+}
+
+.section-2-para{
+    vertical-align: top;
+}
+
+.diabetes-section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.section-3-img img{
+    width: 100%; 
+    object-fit: contain
+}
+
+.diabetes-section-4{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.section-4-img img{
+    width: 350px; 
+    object-fit: contain
+}
