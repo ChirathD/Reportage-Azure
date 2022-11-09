@@ -21,7 +21,7 @@ import "./style.scss"
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy"
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-HJR42K84PT');
+ReactGA.initialize('UA-4269444817');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const Layout = () => {

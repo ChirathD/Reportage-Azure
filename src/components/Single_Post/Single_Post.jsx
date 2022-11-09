@@ -5,7 +5,7 @@ import "./Single_Post_Style.css"
 import Menu from '../Menu/Menu'
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-HJR42K84PT');
+ReactGA.initialize('UA-4269444817');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
