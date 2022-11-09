@@ -1,0 +1,89 @@
+#sidebar{
+    width: auto;
+  }
+  
+  
+  
+  /*
+  Style Sidebar Recent Blog Posts with 75x75px Thumbnails
+  */
+  ul#side-rcnt-thumb-post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  #side-rcnt-thumb-post-list li {
+  margin-top: 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #f4b806;
+  padding-bottom: 15px;
+  position: relative;
+  min-height: 76px;
+  }
+  
+  
+  .srtpl-l {
+  float: left;
+  margin-right: 15px;
+  }
+  
+  .srtpl-a {
+  display: block;
+  outline: 0!important;
+  font-weight: 400;
+  }
+  
+  #side-rcnt-thumb-post-list img {
+  max-width: 100%;
+  width: 100px; /* you can use % */
+  height: 100px;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  }
+  
+  .srtpl-r {
+  margin-left: 90px;
+  }
+  
+  
+  .srtpl-n {
+  display: block;
+  color: #343534;
+  line-height: 1.2;
+  font-weight: 600;
+  font-size: 13px;
+    outline: 0!important;
+  text-decoration: none;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

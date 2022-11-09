@@ -6,7 +6,8 @@ const Card = ({ item: { rank, cover_img_link, category, title, author_name, date
     "featured": "crimson",
     "Sports" : "#0b9931",
     "fashion": "#460b99",
-    "technology" : "#c78823"
+    "technology" : "#c78823",
+    "Health" : "#c78823"
   };
 
   return (
@@ -18,7 +19,7 @@ const Card = ({ item: { rank, cover_img_link, category, title, author_name, date
         <div className='text'>
           <span className='category' style={{backgroundColor: section_1_color_pallet[category]}}>{category}</span>
           {/*<h1 className='titleBg'>{title}</h1>*/}
-          <Link to={`/SinglePage/${rank}`}>
+          <Link to={`/main-post/${rank}`}>
             <h1 className='titleBg'>{title}</h1>
           </Link>
           <div className='author flex'>

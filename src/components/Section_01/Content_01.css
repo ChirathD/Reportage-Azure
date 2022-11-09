@@ -1,5 +1,5 @@
 .hero {
-  margin: 15px 0;
+  margin: 15px 10px;
   color: #fff;
   margin-left: 15px;
 }
@@ -25,6 +25,7 @@
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 6.6vh);
   grid-gap: 15px;
+
 }
 .hero .box:nth-child(1) {
   grid-column-start: 1;

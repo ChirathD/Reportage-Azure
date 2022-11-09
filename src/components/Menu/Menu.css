@@ -1,9 +1,10 @@
 .menu{
-    flex: 2;
     display: flex;
     flex-direction: column;
     gap: 25px;
     margin-right: 15px;
+    flex-wrap: wrap;
+    width: auto;
 }
 
 .menu h1{

@@ -1,0 +1,58 @@
+
+
+ a {
+	 text-decoration: none;
+	 white-space: nowrap;
+	 font-size: 1rem;
+	 color: #a1a1af;
+}
+ a.tag {
+	 display: block;
+	 padding: 0.3em 0.85em;
+	 margin: 0.5em;
+	 text-transform: uppercase;
+	 border: 2px solid #28242f;
+	 border-radius: 2em;
+	 transition: transform 0.2s;
+	 transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, -0.45);
+}
+ a.tag:hover {
+	 transform: scale(1.2);
+	 /* background: linear-gradient(to right, #ff8a00, #da1b60); */
+	 -webkit-background-clip: text;
+	 /* -webkit-text-fill-color: transparent; */
+}
+ /* .container {
+	 display: flex;
+     flex-direction: column;
+	 width: 70%;
+	 justify-content: space-between;
+	 align-items: center;
+	 font-size: 1rem;
+	 color: #a1a1af;
+	 border: 5px solid red;
+	 border-radius: 0.35em;
+	 background-image: url(https://css-tricks.com/wp-content/themes/CSS-Tricks-17/images/featured-comment.svg);
+	 background-repeat: no-repeat;
+
+} */
+
+.tag-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 1rem;
+    color: #a1a1af;
+    border: 5px solid blue;
+    border-radius: 0.35em;
+
+}
+
+.flex-tags{
+    display: flex;
+    flex-direction: row;
+}
+
+ 

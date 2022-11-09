@@ -1,5 +1,8 @@
 import React from 'react'
 import './Menu.css'
+import Tags from "../SidebarTags/Tags"
+import Tag2 from "../Tag2/Tag2"
+import SidebarSection01 from "../SidebarSection01/SidebarSection01"
 
 const Menu = () => {
     const posts = [
@@ -27,19 +30,39 @@ const Menu = () => {
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
         img: "https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
+        {
+            id: 4,
+            title: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
+            img: "https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        },
+        {
+            id: 4,
+            title: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
+            img: "https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        },
+        {
+            id: 4,
+            title: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
+            img: "https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        },
+
     ];
 
   return (
     <div className='menu'>
+        <Tag2></Tag2>
         <h1>More News From Reportage</h1>
-
-        {posts.map(post=>(
+        <SidebarSection01></SidebarSection01>
+        {/* {posts.map(post=>(
             <div className="post" key={post.id}>
                 <img src={post.img} alt="" />
                 <h2>{post.title}</h2>
                 <button>Read More</button>
             </div>
-        ))}
+        ))} */}
 
     </div>
     

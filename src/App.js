@@ -13,6 +13,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal/Modal"
 import BlogPosts from "./components/BlogPosts/BlogPosts"
+import SidebarTags from "./components/SidebarTags/Tags"
+import Tag2 from "./components/Tag2/Tag2"
 import React, { useState } from "react";
 import AdSense from "react-adsense";
 import "./style.scss"
@@ -44,6 +46,11 @@ const router = createBrowserRouter([
         element: <Single />,
       },
       {
+        path: "/main-post/:id",
+        element: <BlogPosts/>,
+      },
+      
+      {
         path: "/write",
         element: <Write />,
       },
@@ -55,11 +62,15 @@ const router = createBrowserRouter([
         path: "/test",
         element: <BlogPosts/>,
       },
+      {
+        path: "/test3",
+        element: <Tag2/>,
+      },
     ],
   },
   {
-    path: "/blogpost1",
-    element: <BlogPosts></BlogPosts>,
+    path: "/test2",
+    element: <SidebarTags/>,
   },
   {
 
