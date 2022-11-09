@@ -20,6 +20,10 @@ import AdSense from "react-adsense";
 import "./style.scss"
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy"
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-4269364300-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 const Layout = () => {
   const [subscriptionState, setSubscriptionState] = useState(false);
   return (

@@ -4,6 +4,11 @@ import { single_post } from "../dummyData"
 import "./Single_Post_Style.css"
 import Menu from '../Menu/Menu'
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-4269364300-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+
 const Single_Post = () => {
 useEffect(() => {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
